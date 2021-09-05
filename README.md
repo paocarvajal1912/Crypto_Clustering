@@ -36,3 +36,7 @@ LinkedIn profile: https://www.linkedin.com/in/paolacarvajal/
 
 ## License
 This project uses a MIT license. This license allows you to use the licensed material at your discretion, as long as the original copyright and license are included in your work files. This license does not contain a patent grant,  and liberate the authors of any liability from the use of this code.
+=======
+# Crypto_Clustering
+Using KMeans and Principal Component Analysis to cluster cryptocurrencies based on their performance in different holding periods.
+>>>>>>> b3f1c89a9659b50f71d236586abdf6d7f132bf0a
