@@ -2,7 +2,7 @@
 
 This code applies *K-Means* and *Principal Component Analysis (PCA)* to cluster cryptocurrencies based on performance over 7 different holding periods.
 
-The analysis could be replicable to other financial series, with large amount of data thanks to the use of PCA, which reduces de dimentionality of the data.
+The analysis could be replicable to other financial series, with large amount of data thanks to the use of PCA, which reduces the dimentionality of the data.
 
 The analysis found the same number and composition of clusters (4) when using the original standarized data of 7 series of returns than when using its 3 principal components. These three principal components explained 90% of the variance of the cryptocurrencies' returns.
 ___
@@ -46,7 +46,7 @@ For information about K-Means, inertia definition, and other type of clustering 
 
 ### Overview of the Analysis
 
-The raw data we used are returns from different periods and differenct crypto-currencies, as can be spot in the figure below. This returns are standarized before starting the analysis.
+The raw data we used are returns from different periods and differenct crypto-currencies, as can be spot in the figure below. These returns are standarized before starting the analysis.
 
 <img src="Images/01_OriginalCryptoReturns.png" alt="Logo" width="1200" height="800">
 
@@ -69,7 +69,7 @@ For more about the *Elbow rule* and the Calinski Harabatz metric look [here](htt
 
 Clusters are colored, and compared between original data and principal components for several terms. On the jupyter notebook plots, you can hover the name of the currencies. However, since the README is not able to show that, we display the colors of the different clusters for the currencies in a table further below.
 
-In the plot immediately below, there are cryptocurrecies plot by performance, and colored by the cluster. The left plot's axis correspond to two of the seven periods of the original data. On the right, the axis coresponds to two of the three principal components. Based on the coeficients associated to the principal component transformation, the main principal component was related mostly to longer term returns; the second, mostly to middle term; the last, mostly to short term returns.
+In the plot immediately below, there are cryptocurrecies plot by performance, and colored by the cluster. The left plot's axis corresponds to two of the seven periods of the original data. On the right, the axis coresponds to two of the three principal components. Based on the coeficients associated to the principal component transformation, the main principal component was related mostly to longer term returns; the second, mostly to middle term; the last, mostly to short term returns.
 
 <img src="Images/03_Clusters_ShortTerm.png" alt="Logo" width="1000">
 
@@ -82,10 +82,10 @@ The final clusters are the same under both analysis, meaning standarized returns
 
 
     The color of each cluster means the following:(here by returns I mean standarized returns)
->* **red** represent cryptocurrencies with the worse performance of the set. Negative or small return in all periods (short, middle and long term). For example, vechain, ontology.
->* **orange** performs a little better than the red. Those are cryptos with moderate positive or slighly negative in the middle and short term returns (ie. bitcoin, chainlink, bitcoin-cash)
->* **blue** performs really well in the long term, but may have large drops in shorter terms (ie. Ethlend)
->* **green** performs well in the middle term side, without the large drops that a blue crypto cluster could have. (ie. celcius-degree-token)
+>* **Red** represents cryptocurrencies with the worse performance of the set. Negative or small return in all periods (short, middle and long term). For example, vechain, ontology.
+>* **Orange** performs a little better than the red ones. Those are cryptos with moderate positive or slighly negative in the middle and short term returns (ie. bitcoin, chainlink, bitcoin-cash)
+>* **Blue** performs really well in the long term, but may have large drops in shorter terms (ie. Ethlend)
+>* **Green** performs well in the middle term side, without the large drops that a blue crypto cluster could have. (ie. celcius-degree-token)
 
 ___
 
